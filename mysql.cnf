@@ -1,0 +1,5 @@
+[client]
+database=rest_bank
+user=rest
+password=rest1234
+default-character-set=utf8

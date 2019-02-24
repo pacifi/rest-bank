@@ -36,7 +36,6 @@ class Institution(models.Model):
     detail_acount = models.CharField(u"Detai account", max_length=150)
     account_number = models.CharField(u"Account number", max_length=50, unique=True)
 
-
     class Meta:
         verbose_name = "Institution"
         verbose_name_plural = "Institutions"
