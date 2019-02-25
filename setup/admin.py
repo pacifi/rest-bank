@@ -5,7 +5,7 @@ from .models import Person, Institution
 
 @admin.register(Institution)
 class InstitutionAdmin(admin.ModelAdmin):
-    pass
+    list_display = ('name', 'identity_num', 'account_number')
 
 
 @admin.register(Person)
