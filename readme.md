@@ -1,4 +1,4 @@
-# API REST
+# API REST Banco Sistema de Inscripción
 
 Validación de pagos por evento
 
