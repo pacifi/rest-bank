@@ -38,5 +38,8 @@ Conexión a API REST, Registro de Eventos
 
 Visitar la página de Inicio http://localhost:9000
 
+### API Publica
 
+
+http://localhost:9000/payments/>dni>/<account>/
     
