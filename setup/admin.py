@@ -10,4 +10,4 @@ class InstitutionAdmin(admin.ModelAdmin):
 
 @admin.register(Person)
 class PersonAdmin(admin.ModelAdmin):
-    pass
+    list_display = ('first_name', 'identity_num')

@@ -26,7 +26,7 @@ class Person(models.Model):
         verbose_name_plural = "Persons"
 
     def __str__(self):
-        return "%s %s" % (self.first_name, self.last_father_name)
+        return "%s %s %s" % (self.first_name, self.last_father_name, self.identity_num)
 
 
 class Institution(models.Model):
@@ -41,4 +41,4 @@ class Institution(models.Model):
         verbose_name_plural = "Institutions"
 
     def __str__(self):
-        return self.name
+        return "%s %s" % (self.name, self.account_number)
